@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>Welcome, {{ user['name'] }}</h1>
+        <h1>Welcome, {{ user['username'] }}</h1>
+        <h2>Your Role: {{ user.get('roles', ['None'])[0] }}</h2>
         <a href="{{ url_for('logout') }}">Logout</a>
     </header>
 </body>
