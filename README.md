@@ -137,5 +137,4 @@ This project includes a GitHub Actions workflow to automate the installation of 
 1. Flask for making Python web apps simple.
 2. MSAL for Python for seamless Azure AD integration.
 3. Azure Active Directory for providing role-based access control functionality.
-# Azure-AD-WebApp
-# Azure-AD-Webapp
+
